@@ -1,4 +1,4 @@
-# This is a default distribution plug-in.
+echo "# This is a default distribution plug-in.
 
 # Do not modify this file as your changes will be overwritten on next update.
 
@@ -22,4 +22,4 @@ TARBALL_SHA256['i686']="ce940e3977dbc4da1ce4f24123e8f59a11b1fdab4b5fe48b1c857ed4
 
 TARBALL_URL['x86_64']="https://kali.download/nethunter-images/current/rootfs/kalifs-amd64-minimal.tar.xz"
 
-TARBALL_SHA256['x86_64']="06dcc3e8c152ae9c28059b8472d947bf514ac14cd259930c42d33b9b5c1f511c"
+TARBALL_SHA256['x86_64']="06dcc3e8c152ae9c28059b8472d947bf514ac14cd259930c42d33b9b5c1f511c"" >$PREFIX/etc/proot-distro/klinux.sh
