@@ -30,11 +30,13 @@ clear
 
 echo
 echo "*** Downloading***"
-wget https://raw.githubusercontent.com/NabinSharmaitgithub/Metasploit-in-termux/main/kali.sh?token=GHSAT0AAAAAACNXLFBIFZR3ZQZAUGE5AAREZN6AKFQ -o kali.sh
+wget https://raw.githubusercontent.com/NabinSharmaitgithub/Metasploit-in-termux/main/l
 
-mv $PREFIX/etc/proot-distro/kali.sh
+chmod +x l
 
-proot-distro install kali
+./l
+
+proot-distro install klinux
 
 echo
 echo "*** Installation***"
