@@ -24,7 +24,7 @@ pkg upgrade -y -o Dpkg::Options::="--force-confnew"
 
 pkg install -y git wget -o Dpkg::Options::="--force-confnew"
 
-apt install proot-distro
+apt install proot-distro -y
 
 clear
 
